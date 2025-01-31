@@ -6,7 +6,9 @@
     text-decoration: none;
     list-style-type: none;
 }
-
+body{
+    width: 1440px;
+}
 /*------------------header----------------------*/
 
 header{
@@ -24,7 +26,7 @@ header{
     align-items: center;
     margin-left: 95px;
 }
-header div p{
+header div h1{
     color: #001858;
     font-family: "Plus Jakarta Sans", serif;
     font-size: 36px;
@@ -74,4 +76,82 @@ header ul li button{
 header ul li button svg{
     width: 24px;
     height: 24px;
+}
+
+/*------------------section registration----------------------*/
+
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 164px;
+}
+.registration div h2{
+    width: 617px;
+    color: #2B2C34;
+    /* 64 px - Heading 1 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.registration div p{
+    width: 652px;
+    color: #9A9494;
+    /* 20 px - Paragraph 1 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.gray-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3px;
+    height: 56px;
+    background: #2B2C34;
+    margin: 0 12px 30px 0;
+}
+input[type="email"]{
+    appearance: none;
+    padding: 21px 200px 21px 25px;
+    border: none;
+    color: #C0C0C0;
+    /* 20 px - Paragraph 1 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFFFFE;
+}
+input[type="submit"]{
+    appearance: none;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: none;
+}
+section img{
+    margin-left: 116px;
+}
+
+/*------------------section category----------------------*/
+
+.category{
+
 }
