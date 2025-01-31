@@ -153,5 +153,92 @@ section img{
 /*------------------section category----------------------*/
 
 .category{
+    margin-top: 345px;
+}
+.category .header-category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 101px 50px 94px;
+}
+.category div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category .header-category h3{
+    color: #2B2C34;
+    /* 24 px - Sub heading 1 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.category .header-category div p{
+    color: #2B2C34;
+    text-align: right;
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.category .header-category div svg{
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    margin: 5px 0 0 12px;
+    color: #2B2C34;
+    text-align: right;
 
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.category nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+}
+.category-card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.category-card p{
+    color: #2B2C34;
+    /* 24 px - Sub heading 1 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+.category-card svg{
+    width: 33px;
+    height: 37px;
+    flex-shrink: 0;
+}
+.category-card div{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFFFFE;
+    margin: 77px 144px 30px 43px;
+}
+.category-card:hover{
+    border-radius: 8px;
+    background: #6246EA;
+
+}
+.category-card:hover p{
+    color: #FFFFFE;
 }
