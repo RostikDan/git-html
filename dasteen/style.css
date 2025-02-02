@@ -279,6 +279,7 @@ section img{
     align-items: flex-start;
     gap: 895px;
     flex-shrink: 0;
+    margin-bottom: 30px;
 }
 .art-link{
     display: flex;
@@ -339,7 +340,7 @@ section img{
 }
 .article-title{
     width: 260px;
-    height: 273px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -410,7 +411,7 @@ section img{
     align-items: flex-start;
     gap: 1043px;
     flex-shrink: 0;
-    margin-top: 80px;
+    margin: 80px 0 30px 0;
 }
 .header-article-css h4{
     color: #2B2C34;
@@ -429,7 +430,7 @@ section img{
     align-items: flex-start;
     gap: 975px;
     flex-shrink: 0;
-    margin-top: 80px;
+    margin: 80px 0 30px 0;
 }
 .header-article-js h4{
     color: #2B2C34;
@@ -448,7 +449,7 @@ section img{
     align-items: flex-start;
     gap: 985px;
     flex-shrink: 0;
-    margin-top: 80px;
+    margin: 80px 0 30px 0;
 }
 .header-article-react h4{
     color: #2B2C34;
@@ -476,6 +477,11 @@ section img{
     line-height: normal;
     text-transform: capitalize;
     margin-top: 80px;
+    border: none;
+}
+.article-card:hover{
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
 /*------------------section subscribe----------------------*/
@@ -548,6 +554,7 @@ section img{
     display: inline-flex;
     align-items: flex-start;
     gap: 160px;
+    margin-top: 70px;
 }
 .about-web{
     display: flex;
