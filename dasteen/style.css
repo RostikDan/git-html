@@ -57,7 +57,7 @@ header ul li a{
     font-weight: 700;
     text-transform: capitalize;
 }
-header ul li svg{
+header ul li img{
     width: 17px;
     height: 17px;
     margin-right: 10px;
@@ -74,8 +74,9 @@ header ul li button{
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
+    border: none;
 }
-header ul li button svg{
+header ul li button img{
     width: 24px;
     height: 24px;
 }
@@ -86,7 +87,8 @@ header ul li button svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 164px;
+    margin-top: 250px;
+    background: #EFF0F3;
 }
 .registration div h2{
     width: 617px;
@@ -125,13 +127,21 @@ input[type="email"]{
     appearance: none;
     padding: 21px 200px 21px 25px;
     border: none;
-    color: #C0C0C0;
     /* 20 px - Paragraph 1 */
-    font-family: "Plus Jakarta Sans", serif;
     font-size: 20px;
     font-weight: 400;
     border-radius: 8px;
     background: #FFFFFE;
+}
+input::placeholder{
+    color: #C0C0C0;
+
+    /* 20 px - Paragraph 1 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 input[type="submit"]{
     appearance: none;
@@ -155,7 +165,9 @@ section img{
 /*------------------section category----------------------*/
 
 .category{
+    height: 500px;
     margin: 345px 0 68px 0;
+    background: #EFF0F3;
 }
 .category .header-category{
     display: flex;
@@ -221,12 +233,7 @@ section img{
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
-    margin-left: 30px;
-}
-.category-card svg{
-    width: 33px;
-    height: 37px;
-    flex-shrink: 0;
+    margin-left: 43px;
 }
 .category-card div{
     width: 60px;
@@ -247,11 +254,13 @@ section img{
 
 /*------------------section article----------------------*/
 .article-post{
+    height: 2344px;
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     gap: 80px;
+    background: #FFFFFE;
 }
 .article{
     margin: 448px 0 1140px 94px;
@@ -337,6 +346,8 @@ section img{
     justify-content: center;
     align-items: flex-start;
     gap: 80px;
+    border-radius: 12px;
+    background: #FFFFFE;
 }
 .article-title{
     width: 260px;
@@ -401,6 +412,12 @@ section img{
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+}
+.point{
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+    margin: 0 12px;
 }
 .header-article-css{
     display: flex;
@@ -493,6 +510,7 @@ section img{
     align-items: flex-start;
     gap: 10px;
     margin-top: 130px;
+    background: #EFF0F3;
 }
 .subscribe{
     display: flex;
@@ -534,22 +552,14 @@ section img{
     align-items: flex-start;
     gap: 20px;
 }
-#mail{
-    appearance: none;
-    display: flex;
-    padding: 21px 200px 21px 25px;
-    align-items: center;
-    gap: 10px;
-    color: #C0C0C0;
 
-    /* 20 px - Paragraph 1 */
-    font-family: "Plus Jakarta Sans", serif;
-    font-size: 20px;
-    font-weight: 400;
-}
 
 /*------------------footer----------------------*/
 
+footer{
+    width: 100%;
+    background: #E4E5E9;
+}
 .footer{
     display: inline-flex;
     align-items: flex-start;
@@ -705,5 +715,5 @@ section img{
     font-family: "Plus Jakarta Sans", serif;
     font-size: 14px;
     font-weight: 400;
-    margin: 26px 0 26px 95px;
+    padding: 26px 0 26px 95px;
 }
