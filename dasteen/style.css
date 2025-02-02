@@ -252,7 +252,7 @@ section img{
     gap: 80px;
 }
 .article{
-    margin: 448px 0 0 94px;
+    margin: 448px 0 1140px 94px;
     display: flex;
     width: 1252px;
     height: 35px;
@@ -474,4 +474,68 @@ section img{
     line-height: normal;
     text-transform: capitalize;
     margin-top: 80px;
+}
+
+/*------------------section subscribe----------------------*/
+
+.section-sub{
+    display: inline-flex;
+    padding: 58px 372px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 130px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.subscribe img{
+    width: 130px;
+    height: 130px;
+    margin: 0;
+}
+.sub-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.title-sub{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.sub-title p{
+    width: 696px;
+    color: #C0C0C0;
+    text-align: center;
+    /* 20 px - Paragraph 1 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.button-sub{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+#mail{
+    appearance: none;
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    color: #C0C0C0;
+
+    /* 20 px - Paragraph 1 */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
 }
