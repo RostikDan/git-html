@@ -19,6 +19,8 @@ header{
     align-items: center;
     background: #EFF0F3;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    position: fixed;
+    top: 0;
 }
 .dasteen-title{
     display: flex;
